@@ -3,7 +3,7 @@ cask "fns-cli" do
   name "fns-cli"
   desc "Streamline your dev workflow from the terminal."
   homepage "https://github.com/afonsodemori/fns-cli"
-  version "0.1.0"
+  version "0.2.0"
 
   livecheck do
     skip "Auto-generated on release."
@@ -13,23 +13,23 @@ cask "fns-cli" do
 
   on_macos do
     on_intel do
-      url "https://github.com/afonsodemori/fns-cli/releases/download/v0.1.0/fns-cli_darwin_x86_64.tar.gz"
-      sha256 "d12a85641f64434466ff261d76eae0bfc9322c8cfafeeff5c313e4d974808fd7"
+      url "https://github.com/afonsodemori/fns-cli/releases/download/v0.2.0/fns-cli_darwin_x86_64.tar.gz"
+      sha256 "e4542d9bdcb4281ac9eb9caec1a6a0c78474f6353ef95bb6682ad88f9d2e9028"
     end
     on_arm do
-      url "https://github.com/afonsodemori/fns-cli/releases/download/v0.1.0/fns-cli_darwin_arm64.tar.gz"
-      sha256 "54f3fdce7749f7f404b8dbc6eccdc4eedc1f8d88ff1aa7c2eab8ecc411136166"
+      url "https://github.com/afonsodemori/fns-cli/releases/download/v0.2.0/fns-cli_darwin_arm64.tar.gz"
+      sha256 "069de4c70ee2e2ac54549b9fbc979592a360aee3cff0013de8704d3e64e1b3ec"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/afonsodemori/fns-cli/releases/download/v0.1.0/fns-cli_linux_x86_64.tar.gz"
-      sha256 "9c6bb5c640fb3baeacde51b0aad026d5a399685845875505ef438a3eca9b063c"
+      url "https://github.com/afonsodemori/fns-cli/releases/download/v0.2.0/fns-cli_linux_x86_64.tar.gz"
+      sha256 "8c4f8d62456052532bd012a0ad27b571f538b0470e35b03cbcded3c164f6a722"
     end
     on_arm do
-      url "https://github.com/afonsodemori/fns-cli/releases/download/v0.1.0/fns-cli_linux_arm64.tar.gz"
-      sha256 "202ec8ee22960f16ad50e4f83b311bdb122d3b34b09407ae498581c0d4c506b1"
+      url "https://github.com/afonsodemori/fns-cli/releases/download/v0.2.0/fns-cli_linux_arm64.tar.gz"
+      sha256 "3a3423f47a09d212ca6c64ffc543e4da4c7db92ed3ce7f42d0cd3aabd44e6c31"
     end
   end
 
